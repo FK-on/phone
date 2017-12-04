@@ -3,7 +3,53 @@
 <title>
 
 </title>
-<body>
-<h2>this is 斯巴达！</h2>
-</body>
 </head>
+<style>
+div a{
+font-size:50px;
+}
+</style>
+<script type="text/javascript">
+function dian(){
+
+var one=document.getElementById("one");
+var two=document.getElementById("two");
+var three=one+two;
+
+document.getElementById("result").append("<a></a>")
+}
+</script>
+<body>
+	<div style="color:green">
+		<h2>this is 斯巴达！</h2>
+	</div>
+	
+	<div>
+	<a href="#" style="text-decoration:none" >安稳与平静</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="text-decoration:none">激情与机器</a>
+	</div>
+	
+	<div>
+		show this is how doingit by 
+	</div>
+	
+	
+	<section>
+	<lable>第一个人:</lable>
+	
+	<input type="text" id="one">
+	</section>
+	<section>
+	<lable>第二个人:</lable>
+	<img/>
+	<input type="text" id="two">
+	</section>
+	<section>
+	<lable>结果:</lable>
+	<span id="result"></span>
+	</section>
+	<section>
+	<button type="button" onclick=dian()>加法</button>
+	</section>
+	
+	</body>
+	
